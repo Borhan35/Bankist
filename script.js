@@ -68,7 +68,7 @@ btnScroll.addEventListener('click', function (e) {
 
 
 ///////////////////////////////////////
-// Add Bubbling Delegation way
+// Nav links
 document.querySelector('.nav__links').addEventListener('click', function (el) {
   el.preventDefault();
   if (el.target.classList.contains('nav__link')) {
